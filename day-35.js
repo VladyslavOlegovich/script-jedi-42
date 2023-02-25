@@ -1,5 +1,10 @@
 // https://www.codewars.com/kata/js-prototypes-module-number-1-object-prototypes
-Object.prototype.description = 'TODO: GIVE ME A DESCRIPTION';
+const description = {
+  description: 'TODO: GIVE ME A DESCRIPTION',
+};
+Object.setPrototypeOf(widget, description);
+Object.setPrototypeOf(gadget, description);
+Object.setPrototypeOf(thingamabob, description);
 
 // https://www.codewars.com/kata/javascript-class-like-objects
 class Animal {

@@ -25,5 +25,4 @@ interface IGeometricFigure {
   }
 
   // https://www.codewars.com/kata/590cb67bc69e3a31d0000042
-  
   // :(
